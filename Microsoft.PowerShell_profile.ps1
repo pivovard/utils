@@ -1,4 +1,4 @@
-function cb { cd .. }
+function .. { cd .. }
 
 function ll {
 	param($Path = "./")
