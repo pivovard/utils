@@ -16,5 +16,5 @@ function cssh {
 }
 
 function term {
-	wsl -e terminator -f --working-directory=~
+	wsl -e terminator -m --working-directory=~
 }
