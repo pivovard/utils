@@ -14,3 +14,7 @@ function cssh {
 		Default { ssh $SshHost }
 	}
 }
+
+function term {
+	wsl -e terminator -f --working-directory=~
+}
